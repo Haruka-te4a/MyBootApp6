@@ -1,4 +1,4 @@
-package jp.te4a.spring.boot.mybootapp9;
+package jp.te4a.spring.boot.mybootapp10;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
-@Table(name = "books")
+@Table(name = "book")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
